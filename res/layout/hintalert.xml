@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/hintEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/text_default"
+        android:ems="12"
+        android:hint="@string/hintText"
+        android:inputType="text"
+        android:padding="15.0dip"
+        android:textColorHint="#0D4F8B" />
+
+    <Button
+        android:id="@+id/hintbutton"
+        android:layout_width="100.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:onClick="saveSecurityKey"
+        android:text="@string/okButton" />
+    
+    <EditText
+        android:id="@+id/newpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginTop="10.0dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/edit_focus_background"
+        android:ems="12"
+        android:enabled="false"
+        android:hint="@string/pwdHint"
+        android:inputType="numberPassword"
+        android:padding="15.0dip"
+        android:textColorHint="#0D4F8B" />
+    
+    <EditText
+        android:id="@+id/conpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginTop="10.0dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/edit_focus_background"
+        android:ems="12"
+        android:enabled="false"
+        android:hint="@string/rePwdHint"
+        android:inputType="numberPassword"
+        android:padding="15.0dip"
+        android:textColorHint="#0D4F8B" />
+    
+    <Button
+        android:id="@+id/resetbtn"
+        android:layout_width="100.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:text="@string/okButton" />
+
+</LinearLayout>
+
+
