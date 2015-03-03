@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">appsSecurity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pwdHint">ENTER PIN.</string>
+    <string name="rePwdHint">RE-ENTER PIN.</string>
+    <string name="okButton">OK</string>
+    <string name="backspace">DEL</string>
+    <string name="clr_button">CLR</string>
+    <string name="saveHintText">Save Security Key</string>
+    <string name="hintButton">Click Here.</string>
+    <string name="hintText">Enter Security Key</string>
+    <string name="forgetPin">Forget Pin?</string>
+</resources>
