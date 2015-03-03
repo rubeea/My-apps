@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="" android:layout_weight="3.0" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="261.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_focus_background"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:hint="@string/pwdHint"
+                android:inputType="numberPassword"
+                android:textSize="20.0dip" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="10.0dip" android:text="" />
+            
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="2.0" />
+                <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="130.0dip" android:layout_height="38.0dip" android:layout_marginBottom="2.0dip" android:text="@string/forgetPin" />
+                <TextView android:layout_width="2.0dip" android:layout_height="wrap_content" android:text="" />
+                <Button android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/bkey" android:background="@drawable/btn_num" android:layout_width="125.0dip" android:layout_height="38.0dip" android:text="@string/hintButton" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="2.0" />
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="10.0dip" android:text="" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="2.0" />
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="85.0dip"
+                    android:layout_height="58.0dip"
+                    android:background="@drawable/btn_num"
+                    android:text="1"
+                    android:textColor="#ffffffff"
+                    android:textSize="28.0dip"
+                    android:textStyle="bold" />
+
+                <TextView android:layout_width="2.0dip" android:layout_height="wrap_content" android:text="" />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="85.0dip"
+                    android:layout_height="58.0dip"
+                    android:background="@drawable/btn_num"
+                    android:text="2"
+                    android:textColor="#ffffffff"
+                    android:textSize="28.0dip"
+                    android:textStyle="bold" />
+
+                <TextView android:layout_width="2.0dip" android:layout_height="wrap_content" android:text="" />
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="85.0dip"
+                    android:layout_height="58.0dip"
+                    android:background="@drawable/btn_num"
+                    android:text="3"
+                    android:textColor="#ffffffff"
+                    android:textSize="28.0dip"
+                    android:textStyle="bold" />
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="2.0" />
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="2.0dip" android:text="" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" />
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="85.0dip"
+                    android:layout_height="58.0dip"
+                    android:background="@drawable/btn_num"
+                    android:text="4"
+                    android:textColor="#ffffffff"
+                    android:textSize="28.0dip"
+                    android:textStyle="bold" />
+
+                <TextView android:layout_width="2.0dip" android:layout_height="wrap_content" android:text="" />
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="85.0dip"
+                    android:layout_height="58.0dip"
+                    android:background="@drawable/btn_num"
+                    android:text="5"
+                    android:textColor="#ffffffff"
+                    android:textSize="28.0dip"
+                    android:textStyle="bold" />
+
+                <TextView android:layout_width="2.0dip" android:layout_height="wrap_content" android:text="" />
+
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="85.0dip"
+                    android:layout_height="58.0dip"
+                    android:background="@drawable/btn_num"
+                    android:text="6"
+                    android:textColor="#ffffffff"
+                    android:textSize="28.0dip"
+                    android:textStyle="bold" />
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="2.0dip" android:text="" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" />
+
+                <Button
+                    android:id="@+id/b7"
+                    android:layout_width="85.0dip"
+                    android:layout_height="58.0dip"
+                    android:background="@drawable/btn_num"
+                    android:text="7"
+                    android:textColor="#ffffffff"
+                    android:textSize="28.0dip"
+                    android:textStyle="bold" />
+
+                <TextView android:layout_width="2.0dip" android:layout_height="wrap_content" android:text="" />
+
+                <Button
+                    android:id="@+id/b8"
+                    android:layout_width="85.0dip"
+                    android:layout_height="58.0dip"
+                    android:background="@drawable/btn_num"
+                    android:text="8"
+                    android:textColor="#ffffffff"
+                    android:textSize="28.0dip"
+                    android:textStyle="bold" />
+
+                <TextView android:layout_width="2.0dip" android:layout_height="wrap_content" android:text="" />
+
+                <Button
+                    android:id="@+id/b9"
+                    android:layout_width="85.0dip"
+                    android:layout_height="58.0dip"
+                    android:background="@drawable/btn_num"
+                    android:text="9"
+                    android:textColor="#ffffffff"
+                    android:textSize="28.0dip"
+                    android:textStyle="bold" />
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="2.0dip" android:text="" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" />
+
+                <Button
+                    android:id="@+id/bclear"
+                    android:layout_width="85.0dip"
+                    android:layout_height="58.0dip"
+                    android:background="@drawable/btn_num"
+                    android:text="@string/clr_button"
+                    android:textColor="#ffffffff"
+                    android:textSize="28.0dip"
+                    android:textStyle="normal" />
+
+                <TextView android:layout_width="2.0dip" android:layout_height="wrap_content" android:text="" />
+
+                <Button
+                    android:id="@+id/b0"
+                    android:layout_width="85.0dip"
+                    android:layout_height="58.0dip"
+                    android:background="@drawable/btn_num"
+                    android:text="0"
+                    android:textColor="#ffffffff"
+                    android:textSize="28.0dip"
+                    android:textStyle="bold" />
+
+                <TextView android:layout_width="2.0dip" android:layout_height="wrap_content" android:text="" />
+
+                <Button
+                    android:id="@+id/bdelete"
+                    android:layout_width="85.0dip"
+                    android:layout_height="58.0dip"
+                    android:background="@drawable/btn_num"
+                    android:text="@string/backspace"
+                    android:textColor="#ffffffff"
+                    android:textSize="28.0dip"
+                    android:textStyle="normal"
+                    android:typeface="sans" />
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" />
+
+                <Button
+                    android:id="@+id/bok"
+                    android:layout_width="85.0dip"
+                    android:layout_height="58.0dip"
+                    android:background="@drawable/btn_num"
+                    android:text="@string/okButton"
+                    android:textColor="#ffffffff"
+                    android:textSize="28.0dip"
+                    android:textStyle="normal"
+                    android:typeface="sans" />
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
