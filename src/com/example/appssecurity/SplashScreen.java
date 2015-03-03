@@ -6,9 +6,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Window;
 
-// Referenced classes of package com.example.owaisgoldi.appslocker:
+// Referenced classes of package com.example.appssecurity:
 //            MyPreferences, MyService, AppsLocker, Login, 
-//            LockPatternActivity, LockPatternActivity2
 
 public class SplashScreen extends Activity
 {
